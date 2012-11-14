@@ -1,0 +1,68 @@
+a           {color: #ffff00; text-decoration:none;}
+a:link      {color: #ffff00;}
+a:visited   {color: #ffff00;}
+a:hover     {color: #ffff00;}
+
+body
+{
+  font-family: Ubuntu;
+  color: #ffffff;
+  text-align: center;
+  background-color: #2A52BE;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1
+{
+  font-size: 18pt;
+  font-weight: bold;
+  color: #222EA8;
+}
+
+#logo
+{
+  font-size: 72pt;
+  margin: 0px;
+}
+
+#top
+{
+  font-size: 12pt;
+  margin-top: 0px;
+  padding-top: 2px;
+  padding-bottom: 16px;
+  height: 150px;
+}
+
+#main
+{
+  /* background-color: #c5d8ac; */
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#main a           {color: #0000ff; text-decoration:none;}
+#main a:link      {color: #0000ff;}
+#main a:visited   {color: #0000ff;}
+#main a:hover     {color: #0000ff;}
+
+#content
+{
+  margin: 0px auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 800px;
+  text-align: justify;
+}
+
+#bottom
+{
+  margin: 0px auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 8px;
+  width: 400px;
+}
