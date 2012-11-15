@@ -1,96 +1,83 @@
-a           {color: #ffff00; text-decoration:none;}
-a:link      {color: #ffff00;}
-a:visited   {color: #ffff00;}
-a:hover     {color: #ffff00;}
+a, a:link, a:visited, a:hover {
+  color: #ff0;
+  text-decoration: none;
+}
 
-body
-{
-  font-family: Ubuntu;
-  color: #ffffff;
-  text-align: center;
-  background-color: #2A52BE;
+body {
+  background-color: #2a52bE;
   padding: 0px;
   margin: 0px;
+  font-family: Ubuntu;
+  color: #fff;
+  text-align: center;
 }
 
-h1
-{
-  font-size: 16pt;
+h1, h2 {
   font-weight: bold;
   color: #222EA8;
-  text-indent: -8px;
 }
 
-#logo
-{
+h1 {
+  text-indent: -12px;
+  font-size: 16pt;
+}
+
+h2 {
+  text-indent: -8px;
+  font-size: 14pt;
+}
+
+#logo {
   font-size: 72pt;
   margin: 0px;
 }
 
-#top
-{
-  font-size: 12pt;
+#top {
   margin-top: 0px;
-  padding-top: 2px;
-  padding-bottom: 16px;
+  padding: 2px 0 16px 0;
   height: 150px;
 }
 
-.menu
-{
-    font-family: Ubuntu;
-    font-size: 16pt;
-    font-weight: bold;
-    width: 100%;
+.menu {
+  font-size: 16pt;
+  font-weight: bold;
+  width: 100%;
 }
 
-.menu ul
-{
-    padding: 6px 0 7px 0; /*6px should equal top padding of "ul li a" below, 7px should equal bottom padding + bottom border of "ul li a" below*/
-    margin: 0;
-    text-align: center;
+.menu ul {
+  padding: 6px 0 7px 0;
+  margin: 0;
+  text-align: center;
 }
 
-.menu ul li
-{
-    display: inline;
+.menu ul li {
+  display: inline;
 }
 
-.menu ul li a
-{
-    padding: 6px 3px 4px 3px; /* Top padding is 6px, bottom padding is 4px. */
-    margin-right: 20px; /* Spacing between each menu link. */
-    text-decoration: none;
+.menu ul li a {
+  padding: 6px 3px 4px 3px; /* Top padding is 6px, bottom padding is 4px. */
+  margin-right: 20px; /* Spacing between each menu link. */
+  text-decoration: none;
 }
 
-#main
-{
-  /* background-color: #c5d8ac; */
-  background-color: #ffffff;
+#main {
+  background-color: #fff;
   color: #000000;
 }
 
-#main a           {color: #0000ff; text-decoration:none;}
-#main a:link      {color: #0000ff;}
-#main a:visited   {color: #0000ff;}
-#main a:hover     {color: #0000ff;}
+#main a, #main a:link, #main a:visited, #main a:hover {
+  color: #00f; text-decoration: none;
+}
 
-#content
-{
+#content {
   margin: 0px auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding: 10px 0;
   width: 800px;
   text-align: justify;
 }
 
-#bottom
-{
+#footer {
   margin: 0px auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 8px;
+  padding: 10px 0;
   width: 400px;
 }
