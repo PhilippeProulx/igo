@@ -1,16 +1,16 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <title>Go -- a simple website to play Go</title>
-    <link rel='stylesheet' type='text/css' href="style.css"/>
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'/>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href="style.css"/>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Ubuntu'>
 </head>
 
 <body>
 
-<div id="header">
+<header>
 
   <p id="logo">囲碁</p>
 
@@ -23,7 +23,7 @@
     </ul>
   </div>
 
-</div>
+</header>
 
 <div id="main">
   <div id="content">
@@ -39,8 +39,9 @@ synchronous and asynchronous phases.</p>
     <p>Supporting old browsers can quickly become a burden, especially if we
 want to achieve the kind of high interactivity only modern web technologies
 provide. Thus, we use <a href="http://socket.io">Socket.IO</a> with the flash
-fall-back disabled. Most browsers support it, with the notable exception of IE,
-where WebSocket is only supported in version 10.</p>
+fall-back disabled and html5 features. Most browsers support these features,
+with the notable exception of IE, where WebSocket is only supported in version
+10.</p>
 
     <p>Testing is done with <a href="http://www.google.com/chrome">Google
 Chrome</a>, which is free to use, and we recommend it.</p>
@@ -53,7 +54,7 @@ github</a>, so anyone can contribute to its development.</p>
   </div>
 </div>
 
-<div id="footer">
+<footer>
 
   <p>version 0.0 (20XX.XX.XX)</p>
 
@@ -61,7 +62,7 @@ github</a>, so anyone can contribute to its development.</p>
 href="http://www.mozilla.org/MPL/2.0/">Mozilla Public License 2.0</a> and <a
 href="https://github.com/PhDP/igo">is available on github</a>.</p>
 
-</div>
+</footer>
 
 </body>
 </html>
