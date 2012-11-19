@@ -3,11 +3,16 @@ a, a:link, a:visited, a:hover {
   text-decoration: none;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
-  background-color: #2a52bE;
-  padding: 0px;
-  margin: 0px;
+  background-color: #036;
+  padding: 0;
+  margin: 0;
   font-family: Ubuntu;
+  font-size: 62.5%; /* 1ems = 10px */
   color: #fff;
   text-align: center;
 }
@@ -18,28 +23,28 @@ h1, h2 {
 }
 
 h1 {
-  text-indent: -12px;
-  font-size: 16pt;
+  text-indent: -1.5em;
+  font-size: 1.4em;
 }
 
 h2 {
-  text-indent: -8px;
-  font-size: 14pt;
+  text-indent: -1em;
+  font-size: 1.2em;
 }
 
 header {
-  margin-top: 0px;
+  margin-top: 0;
   padding: 2px 0 8px 0;
   height: 150px;
 }
 
 #logo {
-  font-size: 72pt;
+  font-size: 10em;
   margin: 0px;
 }
 
 nav {
-  font-size: 16pt;
+  font-size: 2em;
   /* font-weight: bold; */
   width: 100%;
 }
@@ -71,14 +76,16 @@ nav ul li a {
 }
 
 #content {
-  margin: 0px auto;
+  margin: 0 auto;
   padding: 10px 0;
   width: 800px;
   text-align: justify;
+  font-size: 1.6em;
 }
 
 footer {
-  margin: 0px auto;
+  font-size: 1.4em;
+  margin: 0 auto;
   padding: 8px 0;
   width: 400px;
 }
