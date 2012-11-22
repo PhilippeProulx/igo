@@ -2,6 +2,28 @@ doctype 5
 html
   head
     title= title
+    meta(charset='utf8')
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='http://fonts.googleapis.com/css?family=Ubuntu')
   body
-    block content
+    header
+      p#logo 囲碁
+      nav
+        ul
+          li
+            a(href='xxx.html') Games
+          li
+            a(href='xxx.html') Register
+          li
+            a(href='xxx.html') LogIn
+          li
+            a(href='xxx.html') About
+    div#main
+      section
+        block content
+
+    footer
+      p version 0.0 (20XX.XX.XX)
+      p This entire website is open source. The code is released under the <a href="http://www.mozilla.org/MPL/2.0/">Mozilla Public License 2.0</a> and <a href="https://github.com/PhDP/igo">is available on github</a>
+
+

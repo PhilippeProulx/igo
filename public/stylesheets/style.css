@@ -1,4 +1,9 @@
-a, a:link, a:visited, a:hover {
+a, a:link, a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
   color: #ff0;
   text-decoration: none;
 }
@@ -75,7 +80,7 @@ nav ul li a {
   text-decoration: none;
 }
 
-#content {
+section {
   margin: 0 auto;
   padding: 10px 0;
   width: 800px;
