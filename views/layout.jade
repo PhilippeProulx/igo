@@ -6,24 +6,9 @@ html
     link(rel='stylesheet', href='/stylesheets/style.css')
     link(rel='http://fonts.googleapis.com/css?family=Ubuntu')
   body
-    header
-      p#logo 囲碁
-      nav
-        ul
-          li
-            a(href='xxx.html') Games
-          li
-            a(href='xxx.html') Register
-          li
-            a(href='xxx.html') LogIn
-          li
-            a(href='xxx.html') About
+    include includes/header
     div#main
       section
         block content
-
-    footer
-      p version 0.0 (20XX.XX.XX)
-      p This entire website is open source. The code is released under the <a href="http://www.mozilla.org/MPL/2.0/">Mozilla Public License 2.0</a> and <a href="https://github.com/PhDP/igo">is available on github</a>
-
+    include includes/footer
 
