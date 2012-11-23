@@ -1,6 +1,6 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
+  "name": "囲碁",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node app"
