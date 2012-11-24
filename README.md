@@ -9,8 +9,8 @@ For now it's mostly an empty skeleton, don't trust anything before the version
 
 tools & language
 ----------------
-igo is written in JavaScript with Node.js, the Express framework, and the
-websocket technology.
+igo is written in JavaScript with Node.js, the Express framework, websocket
+technology, and a MongoDB database.
 
 license
 -------
