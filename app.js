@@ -23,7 +23,14 @@ app.configure('development', function(){
 });
 
 app.get('/', routes.index);
-app.get('/users', user.list);
+
+app.get('/user/:id', function(req, res){
+  res.render('user', {userID: req.params.id});
+});
+
+app.get('/game/:id', function(req, res){
+  res.render('game', {gameID: req.params.id});
+});
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
